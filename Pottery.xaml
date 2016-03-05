@@ -1,0 +1,35 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="CottageIndustryBD.Pottery"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+    <Grid>
+        <StackPanel>
+            <StackPanel.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/pottery.jpg"/>
+            </StackPanel.Background>
+            <TextBlock TextWrapping="Wrap" Text="Pottery" Height="60" FontSize="40" Margin="20"/>
+            <ScrollViewer Height="601" Margin="20" Background="#7FFFFFFF">
+                <TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="25">
+            		<Run Text="Pottery is one of the oldest cottage industries of Bangladesh. At the ancient time people of this country used plates, glasses and other things made from clay. Even many people use household utensils made from clay still now."/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run Text="Inexpensive household utensils are  made of clay as are images of Hindu gods and goddesses for puja and devotional rites. Dolls, toys, and decoration pieces are also made in most parts of Bangladesh. Some clay products are decorated with designs of leaves, flowers, birds etc while others are left plain."/>
+            		<LineBreak/>
+            		<Run/>
+                </TextBlock>
+            </ScrollViewer>
+
+        </StackPanel>
+    </Grid>
+</phone:PhoneApplicationPage>

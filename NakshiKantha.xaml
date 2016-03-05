@@ -1,0 +1,66 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="CottageIndustryBD.NakshiKantha"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    
+    <Grid>
+        <StackPanel>
+            <StackPanel.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/nakshikatha2.jpg"/>
+            </StackPanel.Background>
+            <TextBlock TextWrapping="Wrap" Text="NakshiKantha" Height="60" FontSize="40" Margin="20"/>
+            <ScrollViewer Height="585" Margin="20" Background="#7FFFFFFF">
+                <TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="25">
+            		<Run Text="Nakshi Kantha or embroidered quilt is made and used almost everywhere in Bangladesh. However, the nakshi kanthas of Rajshahi, Jessore, and Faridpur are most famous for stitch craft and picturesque designs. Several layers of old cloth are put together to make these quilts. Apart from being used to make pillow cases and covers, prayer mats, seats for puja, small  bags for keeping mirrors and combs, filaf (covers) for books, covers for foods, and dastarkhan or dining mats. The designs were traditionally drawn free hand by women who worked leisurely in their spare time. At present much nakshi kantha work is done by NGOS and handicraft organizations for commercial purposes. Common motifs are the lotus, the sun, the moon, stars, leaves, trees, flowering creepers, human figures, deities, horses, elephants, fish, birds, TAZIAS and rath. Elaborately embroidered quilts depict scenes from mythology or contemporary life. Traditionally, threads drawn from sari borders were used. At present embroidery thread is used or skeins of yarn."/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run Text="The following is how kanthas are categorized, according to the stitch type:"/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run Text="Running stitch"/>
+            		<LineBreak/>
+            		<Run Text="The running stitch kantha is truly the indigenous kantha. They are subdivided into Nakshi (figured) and par tola (patterned). Nakshi (figured) kanthas are further divided into motif or scenic kanthas."/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run Text="Lohori kantha"/>
+            		<LineBreak/>
+            		<Run Text="The name was derived from Persian word 'lehr', which means wave. This type of kantha is particularly popular in Rajshahi. These kanthas are further divided into soja (straight or simple), Kautar khupi (pigeon coop or triangle), borfi or diamond (charchala, atchala or barachala)."/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run Text="Lik or anarasi"/>
+            		<LineBreak/>
+            		<Run Text="The Lik or Anarasi (pine apple) type of kantha is found in the Chapainawabgonj and Jessore areas. The variations are lik tan, lik tile, lik jhumka, and lik lohori."/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run Text="Cross-stitch or carpet"/>
+            		<LineBreak/>
+            		<Run Text="This type of kantha was introduced by the English during the British Rule in India. The stitch employed in these kanthas is the cross-stitch."/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run Text="Sujni kantha"/>
+            		<LineBreak/>
+            		<Run Text="This type of kantha is found only in Rajshahi area. The popular motif used is the floral and vine motif."/>
+                </TextBlock>
+            </ScrollViewer>
+
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>

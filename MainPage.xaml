@@ -1,0 +1,70 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="CottageIndustryBD.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+    <Grid>
+        <StackPanel>
+            <StackPanel.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/golden_morning_by_incolor16-d5efvjw.jpg"/>
+            </StackPanel.Background>
+            <TextBlock TextWrapping="Wrap" Text="CottageIndustryBD" Height="60" FontSize="45" Foreground="#FF230303"/>
+            <Button Content="Nakshi Kantha" 
+                    Margin="0,100,0,0" 
+                    Foreground="#FFFFFDFD"
+                    Background="#7F9E8989"
+                    Click="NakshiClick"/>
+
+            <Button Content="Jamdani" 
+                    Margin="0,0,0,0" 
+                    Foreground="#FFFFFDFD"
+                    Background="#7F9E8989"
+                    Click="JamdaniClick"/>
+
+            <Button Content="Jute Craft" 
+                    Margin="0,0,0,0" 
+                    Foreground="#FFFFFDFD"
+                    Background="#7F9E8989"
+                    Click="JuteClick"/>
+
+            <Button Content="Pottery" 
+                    Margin="0,0,0,0" 
+                    Foreground="#FFFFFDFD"
+                    Background="#7F9E8989"
+                    Click="PotClick"/>
+
+            <Button Content="Bamboo and Cane Craft" 
+                    Margin="0,0,0,0" 
+                    Foreground="#FFFFFDFD"
+                    Background="#7F9E8989"
+                    Click="BambooClick"/>
+
+            <Button Content="Muslin" 
+                    Margin="0,0,0,0" 
+                    Foreground="#FFFFFDFD"
+                    Background="#7F9E8989"
+                    Click="MuslinClick"/>
+            <Button Content="About" 
+                    Margin="0,0,0,0" 
+                    Foreground="#FFFFFDFD"
+                    Background="#7F9E8989"
+                    Click="AboutClick"/>
+
+
+
+
+        </StackPanel>
+    </Grid>
+
+
+
+
+</phone:PhoneApplicationPage>

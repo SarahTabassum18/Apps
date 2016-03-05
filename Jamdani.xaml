@@ -1,0 +1,36 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="CottageIndustryBD.Jamdani"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+    <Grid>
+        <StackPanel Margin="0,0,0,-63">
+            <StackPanel.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/Jamdani1.jpg"/>
+            </StackPanel.Background>
+            <TextBlock TextWrapping="Wrap" Text="Jamdani" Height="60" FontSize="40" Margin="20"/>
+            <ScrollViewer Height="615" Margin="20" Background="#7FFFFFFF">
+                <TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="25">
+        			<Run Text="Jamdani is one of the finest muslin textiles of Bengal, produced in Dhaka District, Bangladesh for centuries. The historic production of jamdani was patronized by imperial warrants of the Mughal emperors. Under British colonialism, the Bengali jamdani and muslin industries rapidly declined due to colonial import policies favoring industrially manufactured textiles. In more recent years, the production of jamdani has witnessed a revival in Bangladesh. The traditional art of weaving jamdani has been declared by UNESCO as a Intangible Cultural Heritage of Humanity."/>
+        			<LineBreak/>
+        			<Run Text="The Jamdani weaving tradition is of Bengali origin. It is one of the most time and labor-intensive forms of hand loom weaving. In the first half of the nineteenth century, James Taylor described the figured or flowered jamdani; in the late nineteenth century, T. N. Mukharji referred to this fabric as jamdani muslin."/>
+        			<LineBreak/>
+        			<Run Text="Jamdani patterns are mostly of geometric, plant, and floral designs and are said to have originated thousands of years ago."/>
+        			<LineBreak/>
+        			<Run/>
+                </TextBlock>
+            </ScrollViewer>
+
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>

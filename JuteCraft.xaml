@@ -1,0 +1,42 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="CottageIndustryBD.JuteCraft"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid>
+        <StackPanel>
+            <StackPanel.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/Jute.jpg"/>
+            </StackPanel.Background>
+            <TextBlock TextWrapping="Wrap" Text="Jute Craft" FontSize="40" Height="60" Foreground="Black" Margin="20"/>
+            <ScrollViewer Height="584" Margin="20" Background="#7FFFFFFF">
+                <TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="25">
+            		<Run Text="Jute craft apart from being the raw material for hessian and carpets, jute is also used to make mats, bags, and hanging string bags or shika, used in homes to hang foodstuff out of the reach of animals. To make shikas, jute twine is braided and then tied in various patterns such as tearful, puntiful and takaful. The shikas are given different names such as muthashika, chakshika, kadishika and nemtashika on the basis of their size, shape and designs Kadishika, for example, is threaded with cowries.                          Bangladeshi jute products have huge demand in several foreign countries. By selling raw jute and jute products Bangladesh earns millions of dollars every year but due to lack of proper treatment this industry is on the verge of destruction at present."/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run/>
+                </TextBlock>
+            </ScrollViewer>
+
+        </StackPanel>
+    </Grid>
+</phone:PhoneApplicationPage>

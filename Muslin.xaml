@@ -1,0 +1,35 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="CottageIndustryBD.Muslin"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid>
+        <StackPanel>
+            <StackPanel.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/muslin.jpg"/>
+            </StackPanel.Background>
+            <TextBlock TextWrapping="Wrap" Text="Muslin" Height="60" FontSize="40" Margin="20"/>
+            <ScrollViewer Height="597" Margin="20" Background="#7FFFFFFF">
+                <TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="25" >
+            		<Run Text="Muslin is a cotton fabric of plain weave. It is made in a wide range of weights from delicate sheers to coarse sheeting. It gets its name from the Indian port town Masulipatnam, known as Maisolos and Masalia in ancient times and the name 'Muslin' originated from the name Maisolos. Early Indian muslin was handwoven of uncommonly delicate handspun yarn, especially in the region of what today is Bangladesh. It was imported into Europe for much of the 17th and early 18th century."/>
+            		<LineBreak/>
+            		<Run/>
+            		<LineBreak/>
+            		<Run Text="At the end of the 16th century the English traveler Ralph Fitch greatly admired the muslin of Sonargaon. The Portuguese traveler Duarte Barbosa described the muslin of Bangladesh in the early 16th century. He mentioned a few types of fabrics, such as estrabante (sarband), mamona, fugoza, choutara, and sinabaka. Although this view has the fabric named after the city where Europeans first encountered it (Mosul), the fabric is believed to have originated in Dhakeshwari, now called Dhaka, which is now the capital of Bangladesh.[15] In the 9th century, an Arab merchant named Sulaiman made note of the material's origin in Bengal (known as Ruhml in Arabic). Bengali muslin was traded throughout the Muslim world, from the Middle East to Southeast Asia. In many Islamic regions, such as in Central Asia, the cloth was named Daka, after the city of Dhaka.[11] In present day, many different types of muslins are produced in many different places, including Dhaka."/>
+                </TextBlock>
+            </ScrollViewer>
+
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>
