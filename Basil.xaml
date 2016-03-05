@@ -1,0 +1,44 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="NaturalHealers.Basil"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/MyPic/Basil_ItalianLargeLeaf.jpg"/>
+        </StackPanel.Background>
+        <TextBlock Text="Basil"
+                   FontSize="40" Foreground="#FF07510B" Margin="20"/>
+        <ScrollViewer Height="590" Margin="20" Background="#7FFFFFFF">
+            <TextBlock TextWrapping="Wrap" Foreground="#FF07510B" FontSize="25">
+            	<Run Text="Basil: Combat stress"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="It is very effective at reducing stress by increasing adrenaline and noradrenaline and decreasing serotonin. Tea made from the leaves of basil relieves indigestion and headaches."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="It might also: Inhibit breast cancer. Tea made of basil shrink tumors, reduced their blood supply, and stopped their spread."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Maximize the benefits: For stress relief, try basil. To aid in breast cancer treatment, drink this tea daily: Pour 2 cups boiling water over 10 to 15 fresh holy basil leaves (other varieties of basil won't work) and steep 5 minutes. Remove the leaves before consuming. If you are being treated for breast cancer, be sure to check with your doctor. "/>
+            	<LineBreak/>
+            	<Run Text=" "/>
+            </TextBlock>
+        </ScrollViewer>
+
+
+    </StackPanel>
+</phone:PhoneApplicationPage>

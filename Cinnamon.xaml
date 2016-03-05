@@ -1,0 +1,41 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="NaturalHealers.Cinnamon"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/MyPic/Cinnamon.jpg"/>
+        </StackPanel.Background>
+        <TextBlock Text="Cinnamon" FontSize="40" Foreground="Black" Margin="20"/>
+        <ScrollViewer Height="587" Margin="20" Background="#7FFFFFFF">
+            <TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="25">
+            	<Run Text="Cinnamon: Lower blood sugar"/>
+            	<LineBreak/>
+            	<Run Text="In a recent German study of type 2 diabetics, taking cinnamon extract daily successfully reduced blood sugar by about 10%."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="It might also: Lower cholesterol. Cinnamon packs a one-two punch for people with type 2 diabetes by reducing related heart risks. In another study of diabetics, it slashed cholesterol by 13% and triglycerides by 23%."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Caution: Keep in mind that a large amount of the actual spice can be dangerous, so stick with a water-soluble extract."/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+
+
+        </ScrollViewer>
+    </StackPanel>
+</phone:PhoneApplicationPage>

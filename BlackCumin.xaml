@@ -1,0 +1,43 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="NaturalHealers.BlackCumin"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/MyPic/black cumin_0.jpg"/>
+        </StackPanel.Background>
+        <TextBlock Text="Black Cumin" FontSize="40" Foreground="#FF360909" Margin="20"/>
+        <ScrollViewer Height="574" Margin="20" Background="#7FFFFFFF">
+            <TextBlock TextWrapping="Wrap" FontSize="25" Foreground="Black">
+            	<Run Text="Prophet Mohammed(PBUH) reportedly said that seeds of the black cumin plant could cure anything but death itself. While that may seem to be quite the tall order, black cumin (Nigella sativa) does in fact have remarkable healing and health properties that make it one of the most powerful medicinal plants known to man."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The seeds of the black cumin plant contain over 100 chemical compounds, including some yet to be identified. In addition to what is believed to be the primary active ingredient, crystalline nigellone, black cumin seeds contain: thymoquinone, beta sitosterol. myristic acid, palmitic acid, palmitoleic acid, stearic acid, oleic acid, linoleic acid, linolenic acid, arachidonic acid, protein, vitamin B1, vitamin B2, vitamin B3, folic acid, calcium, iron, copper, zinc, and phosphorous."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Black cumin seeds have a particularly long and strong history use in Egypt. When archaeologists found and examined the tomb of Egyptian boy-king Tutankhamen (King Tut), they found a bottle of black cumin oil, which suggested that it was believed to be needed in the afterlife."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Physicians to the Egyptian pharaohs frequently used the seeds after extravagant feasts to calm upset stomachs. They also used the seeds to treat headaches, toothaches, colds, and infections. Queen Nefertiti, renowned for her stunning beauty, used black seed oil, likely due to its abilities to strengthen and bring luster to hair and nails."/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+
+    </StackPanel>
+
+</phone:PhoneApplicationPage>

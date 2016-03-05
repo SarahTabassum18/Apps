@@ -1,0 +1,42 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="NaturalHealers.Garlic"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/MyPic/three-garlic.jpg"/>
+        </StackPanel.Background>
+        <TextBlock Text="Garlic"
+                   FontSize="40" Foreground="#FF130404" Margin="20"/>
+        <ScrollViewer Height="561" Margin="20" Background="#7FFFFFFF">
+            <TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="25">
+            	<Run Text="Garlic: Lower cancer risk"/>
+            	<LineBreak/>
+            	<Run Text="High consumption of garlic lowered rates of ovarian, colorectal, and other cancers. A Japanese clinical trial also found that after a year of taking aged garlic extract supplements, people with a history of colon polyps saw a reduction in the size and number of the precancerous growths detected by their doctors."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="It might also: Provide cardiovascular benefits. Garlic contains more than 70 active phytochemicals, including allicin, which many studies have shown decreases high blood pressure by as much as 30 points. Garlic may help prevent strokes as well by slowing arterial blockages, according to a yearlong clinical study at UCLA. In addition, patients' levels of homocysteine, a chemical that leads to plaque buildup, dropped by 12%."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Maximize the benefits: Crushed fresh garlic offers the best cardiovascular and cancer-fighting benefits. But you'll need to down up to five cloves each day."/>
+            	<LineBreak/>
+            	<Run Text=""/>
+            </TextBlock>
+        </ScrollViewer>
+
+
+    </StackPanel>
+</phone:PhoneApplicationPage>

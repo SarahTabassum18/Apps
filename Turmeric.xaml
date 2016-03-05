@@ -1,0 +1,49 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="NaturalHealers.Turmeric"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/MyPic/turmeric.jpg"/>
+        </StackPanel.Background>
+
+        <TextBlock Text="Turmeric" FontSize="40" Margin="20" Foreground="#FF1D0303" />
+        <ScrollViewer Height="558" Margin="20" Background="#7FFFFFFF">
+            <TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="25">
+            	<Run Text="Turmeric: Ease arthritis"/>
+            	<LineBreak/>
+            	<Run Text="A heaping helping of curry could relieve your pain. That's because turmeric, a spice used in curry, contains curcumin, a powerful anti-inflammatory that works similarly to Cox-2 inhibitors, drugs that reduce the Cox-2 enzyme that causes the pain and swelling of arthritis."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="It might also: Prevent colon cancer and Alzheimer's disease. Curcumin can help shrink precancerous lesions known as colon polyps, when taken with a small amount of quercetin, a powerful antioxidant found in onions, apples, and cabbage. The average number of polyps dropped more than 60% and those that remained shrank by more than 50%. Researchers at UCLA also found that curcumin helps clear the brain of the plaques that are characteristic of the disease."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+
+
+
+    </StackPanel>
+
+
+</phone:PhoneApplicationPage>

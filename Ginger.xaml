@@ -1,0 +1,39 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="NaturalHealers.Ginger"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <StackPanel >
+        <StackPanel.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/MyPic/Ginger.jpg"/>
+        </StackPanel.Background>
+        <TextBlock Text="Ginger"
+                   FontSize="40" Foreground="#FF0E0D0D" Margin="20" />
+        <ScrollViewer Height="558" Margin="20" Background="#7FFFFFFF">
+            <TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="25">
+            	<Run Text="Ginger:  Avert nausea"/>
+            	<LineBreak/>
+            	<Run Text="Ginger can prevent stomach upset from many sources, including pregnancy, motion sickness, and chemotherapy. A powerful antioxidant, ginger works by blocking the effects of serotonin, a chemical produced by both the brain and stomach when you're nauseated, and by stopping the production of free radicals, another cause of upset in your stomach. In one study of cruise ship passengers traveling on rough seas, 500 mg of ginger every 4 hours was as effective as Dramamine, the commonly used OTC motion-sickness medication. In another study, where subjects took 940 mg, it was even more effective than the drug."/>
+            	<LineBreak/>
+            	<Run Text="It might also: Decrease your blood pressure, arthritis pain, and cancer risk. Ginger helps regulate blood flow, which may lower blood pressure and its anti-inflammatory properties might help ease arthritis. Those same anti-inflammatory powers help powdered ginger kill ovarian cancer cells which is better than traditional chemotherapy."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+
+            </TextBlock>
+        </ScrollViewer>
+
+    </StackPanel>
+
+</phone:PhoneApplicationPage>
